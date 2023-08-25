@@ -32,6 +32,6 @@ for (x, y, w, h) in faces:
 # Display the output
 cv2.imshow('img', img)
 
-# Wait for any key press and then close the image window
+# Wait for a key to be pressed in order to close the window
 cv2.waitKey(0)
 cv2.destroyAllWindows()
